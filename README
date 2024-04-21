@@ -1,0 +1,21 @@
+Image Processing Pipeline Documentation
+Introduction
+This script is designed to convert RAW image files into high-quality images suitable for both viewing and analytical purposes. It achieves this through a series of steps: linearizing the image data, applying white balance, demosaicing, adjusting the color space, and making final enhancements such as adjusting brightness and applying gamma encoding.
+
+Configuration
+Before using this script, please ensure the following Python libraries are installed:
+
+numpy
+matplotlib
+skimage
+colour_demosaicing
+These can be installed via pip with the following command:
+
+bash
+Copy code
+pip install numpy matplotlib scikit-image colour-demosaicing
+Customization Options
+This script includes several points where the processed image can be visualized using matplotlib. These sections are initially commented out to streamline the script’s operation. If you wish to inspect the image at different processing stages:
+
+Locate and uncomment the appropriate plotting blocks within the script. For instance, to see the image after the demosaicing process, search for the section titled "Uncomment to plot demosaicing images" and uncomment this block.
+This customization allows for flexibility in visualizing and understanding the different transformations applied to the image throughout the processing stages.
