@@ -11,8 +11,7 @@ skimage
 colour_demosaicing
 These can be installed via pip with the following command:
 
-bash
-Copy code
+
 pip install numpy matplotlib scikit-image colour-demosaicing
 Customization Options
 This script includes several points where the processed image can be visualized using matplotlib. These sections are initially commented out to streamline the script’s operation. If you wish to inspect the image at different processing stages:
